@@ -3,7 +3,7 @@
 -- Column must be origin and nb_fans
 -- Script can be executed on any databas
 
-SELECT origin, SUM(fans) AS NB_FANS
+SELECT origin, SUM(fans) AS nb_fans
 FROM metal_bands
 GROUP BY origin
-ORDER BY NB_FANS DESC;
+ORDER BY nb_fans DESC;
