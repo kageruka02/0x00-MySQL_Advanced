@@ -1,2 +1,2 @@
 //counts all documents in collection
-db.school.count();
+db.school.count()
